@@ -32,10 +32,10 @@ The reason for following these steps comes from experience on several projects (
 
 ## Screen shots/Mockups
 * Interface 1
-![Interface 1](http://)
+![Interface 1](https://raw.githubusercontent.com/OdujokoD/ALC/blob/master/mockups/interface_1.jpg)
 
 * Interface 2
-![Interface 2](http://)
+![Interface 2](https://raw.githubusercontent.com/OdujokoD/ALC/blob/master/mockups/interface_2.jpg)
 
 ## How do I get set up?
 
