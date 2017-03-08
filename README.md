@@ -35,7 +35,7 @@ The reason for following these steps comes from experience on several projects (
 ![Interface 1](https://raw.githubusercontent.com/OdujokoD/ALC/blob/master/mockups/interface_1.jpg)
 
 * Interface 2
-![Interface 2](https://raw.githubusercontent.com/OdujokoD/ALC/blob/master/mockups/interface_2.jpg)
+![Interface 2](https://github.com/OdujokoD/ALC/blob/master/mockups/interface_2.jpg)
 
 ## How do I get set up?
 
