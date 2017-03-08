@@ -23,7 +23,7 @@ When developing, I prefer to follow these steps:
 * Create my mockups/sketches
 * If database is required, I will plan out the design of the database
 * Breakdown the problem into small chunks
-* Check out the if there is a *good* library to handle tasks else plan the implementation of the task
+* Check if there is a *good* library to handle tasks else plan the implementation of the task
 * Choose an architecture
 * Get the hands dirty
 
@@ -31,8 +31,11 @@ The reason for following these steps comes from experience on several projects (
 
 
 ## Screen shots/Mockups
+* Interface 1
+![Interface 1](http://)
 
-Yet to be uploaded
+* Interface 2
+![Interface 2](http://)
 
 ## How do I get set up?
 
@@ -48,7 +51,7 @@ Documentation coming soon...
 Work in progress
 
 ## Bugs and Feedback
-For bugs, questions and discussion, please use [Issues](https://github.com/shareonbazaar/android/issues)
+For bugs, questions and discussion, please use [Issues](https://github.com/OdujokoD/ALC/issues)
 
 ## Who do I talk to?
 
