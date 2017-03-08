@@ -31,6 +31,10 @@ The reason for following these steps comes from experience on several projects (
 
 
 ## Screen shots/Mockups
+<p align="center">
+  <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/interface_1.jpg" width="350"/>
+  <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/interface_2.jpg" width="350"/>
+</p>
 * Interface 1
 ![Interface 1](https://raw.githubusercontent.com/OdujokoD/ALC/blob/master/mockups/interface_1.jpg)
 
