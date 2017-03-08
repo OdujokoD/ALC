@@ -34,6 +34,8 @@ The reason for following these steps comes from experience on several projects (
 <p align="center">
   <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/interface_1.jpg" width="350"/>
   <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/interface_2.jpg" width="350"/>
+  
+<div>Icons made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </p>
 
 ## How do I get set up?
