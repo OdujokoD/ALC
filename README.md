@@ -54,4 +54,4 @@ For bugs, questions and discussion, please use [Issues](https://github.com/Odujo
 
 ## Who do I talk to?
 
-* Repo owner or admin
+* Repo owner
