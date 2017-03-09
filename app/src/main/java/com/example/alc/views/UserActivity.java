@@ -6,9 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 
 import com.example.alc.R;
 import com.example.alc.model.Developer;
@@ -17,8 +19,8 @@ import com.example.alc.network.Connection;
 import com.example.alc.network.ConnectionService;
 import com.example.alc.utility.RecyclerAdapter;
 
+import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 import retrofit2.Call;
@@ -29,7 +31,7 @@ import static java.security.AccessController.getContext;
 
 public class UserActivity extends AppCompatActivity implements RecyclerAdapter.ClickListener {
 
-    private FrameLayout frameLayout;
+    private LinearLayout linearLayout;
     private RecyclerView recyclerView;
     private RecyclerAdapter recyclerAdapter;
 
@@ -38,10 +40,13 @@ public class UserActivity extends AppCompatActivity implements RecyclerAdapter.C
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         recyclerView = (RecyclerView)findViewById(R.id.user_list);
         recyclerView.setHasFixedSize(true);
 
-        frameLayout = (FrameLayout)findViewById(R.id.activity_user);
+        linearLayout = (LinearLayout)findViewById(R.id.activity_user);
 
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
@@ -51,8 +56,11 @@ public class UserActivity extends AppCompatActivity implements RecyclerAdapter.C
 
     @Override
     public void itemClicked(View view, int position) {
+        ItemJSON currentUser = recyclerAdapter.getUserByPos(position);
         Intent intent = new Intent(getApplicationContext(), IndividualProfile.class);
-        //intent.putExtra(USER_ID, recyclerAdapter.getUserByPos(position).getId());
+        intent.putExtra("User name", currentUser.getUserName());
+        intent.putExtra("Profile URL", currentUser.getProfileUrl());
+        intent.putExtra("Profile photo", currentUser.getProfilePhoto());
         startActivity(intent);
     }
 
@@ -69,7 +77,7 @@ public class UserActivity extends AppCompatActivity implements RecyclerAdapter.C
                     @Override
                     public void onFailure(Call<Developer> call, Throwable t) {
                         Snackbar snackbar = Snackbar
-                                .make(frameLayout, "Data retrieval failed!", Snackbar.LENGTH_LONG);
+                                .make(linearLayout, "Data retrieval failed!", Snackbar.LENGTH_LONG);
                         snackbar.show();
 
                         Log.d("LOG_TAG", t.toString());
