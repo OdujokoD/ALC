@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ALC</string>
+    <string name="profile_image">Developer profile image</string>
 </resources>

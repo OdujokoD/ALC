@@ -24,7 +24,6 @@ When developing, I prefer to follow these steps:
 * If database is required, I will plan out the design of the database
 * Breakdown the problem into small chunks
 * Check if there is a *good* library to handle tasks else plan the implementation of the task
-* Choose an architecture
 * Get the hands dirty
 
 The reason for following these steps comes from experience on several projects (both android and non-android projets). First, it reduces the implementation time drastically. Second, it helps to keep track of progress on the project.
@@ -43,9 +42,6 @@ The reason for following these steps comes from experience on several projects (
 * Clone repository
 * Import to Android studio and wait for gradle build
 * Explore folders to understand workflow
-
-## Architecture (MVVM)
-Documentation coming soon...
 
 ## Code Breakdown
 
