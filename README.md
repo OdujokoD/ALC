@@ -65,8 +65,8 @@ This is where creativity comes in. At this point, you already have a repertoire 
 
 ## Screenshots
 <p align="center">
-  <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/screenshot_1.jpg" width="350"/>
-  <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/screenshot_2.jpg" width="350"/>
+  <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/screenshot_1.png" width="350"/>
+  <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/screenshot_2.png" width="350"/>
 
 ## How do I set up?
 
