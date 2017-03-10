@@ -8,6 +8,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface ConnectionService {
-    @GET("search/users?q=language:java")
+    @GET("search/users?q=language:java+location:lagos")
     Call<Developer> getDevelopers();
 }
