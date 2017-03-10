@@ -44,7 +44,7 @@ From the challenge/problem specification we can see that the major task is to co
 2. Parse result from the HTTP connection
 3. Display the result(list of developers in Lagos) in a [list](https://developer.android.com/training/material/lists-cards.html)
 4. Handle the click event of list item
-5. Display detail of the selected developer
+5. Display details of the selected developer
 6. Add click listener to developer's url link such that it opens up in a web browser
 7. Add a share button and handle events also
 8. Tidy up
@@ -67,6 +67,12 @@ This is where creativity comes in. At this point, you already have a repertoire 
 <p align="center">
   <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/screenshot_1.png" width="350"/>
   <img src="https://github.com/OdujokoD/ALC/blob/master/mockups/screenshot_2.png" width="350"/>
+  
+## To do
+* Check for active connection
+* Animation when fetching data
+* Improve UI
+
 
 ## How do I set up?
 
