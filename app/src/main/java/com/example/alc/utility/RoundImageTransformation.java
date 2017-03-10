@@ -1,4 +1,4 @@
-package com.example.alc.lib;
+package com.example.alc.utility;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;

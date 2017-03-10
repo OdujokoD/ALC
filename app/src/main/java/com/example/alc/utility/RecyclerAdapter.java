@@ -11,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.alc.R;
-import com.example.alc.lib.RoundImageTransformation;
 import com.example.alc.model.ItemJSON;
 import com.squareup.picasso.Picasso;
 
