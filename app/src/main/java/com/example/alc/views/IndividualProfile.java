@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -16,8 +15,6 @@ import com.example.alc.model.Individual;
 import com.example.alc.network.Connection;
 import com.example.alc.network.ConnectionService;
 import com.squareup.picasso.Picasso;
-
-import org.w3c.dom.Text;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -48,7 +45,7 @@ public class IndividualProfile extends AppCompatActivity {
                 .enqueue(new Callback<Individual>() {
                     @Override
                     public void onResponse(Call<Individual> call, Response<Individual> response) {
-                        Log.d("Individual ", response.body().getName());
+                        //Log.d("Individual ", response.body().getName());
                         populateSubView(response.body());
                     }
 
